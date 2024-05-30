@@ -10,7 +10,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Vérifier la connexion
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}$categorie = isset($_GET['categorie']) ? $_GET['categorie'] : 'Immobilier résidentiel';
+}
+
+$categorie = isset($_GET['categorie']) ? $_GET['categorie'] : 'Immobilier résidentiel';
 
 $query = "SELECT * FROM BienImmobilier WHERE type_bien='$categorie'";
 $result = $conn->query($query);
@@ -52,4 +54,3 @@ $result = $conn->query($query);
 </div>
 </body>
 </html>
-

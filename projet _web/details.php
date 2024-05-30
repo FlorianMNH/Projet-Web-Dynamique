@@ -10,14 +10,16 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Vérifier la connexion
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}$id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+}
 
-$query = "SELECT * FROM bienImmobilier WHERE identifiant_bien=$id";
+$id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+
+$query = "SELECT * FROM bienimmobilier WHERE identifiant_bien=$id";
 $result = $conn->query($query);
 
 if ($result->num_rows > 0) {
     $bien = $result->fetch_assoc();
-    $agentQuery = "SELECT * FROM agentImmobilier WHERE identifiant_agent=" . $bien['identifiant_agent'];
+    $agentQuery = "SELECT * FROM agentimmobilier WHERE identifiant_agent=" . $bien['identifiant_agent'];
     $agentResult = $conn->query($agentQuery);
     $agent = $agentResult->fetch_assoc();
 } else {
@@ -46,6 +48,12 @@ if ($result->num_rows > 0) {
     <p><?php echo $agent['prenom'] . " " . $agent['nom']; ?></p>
     <p>Email: <?php echo $agent['email']; ?></p>
     <p>Téléphone: <?php echo $agent['telephone']; ?></p>
+    <img src="images/<?php echo $agent['Photo']; ?>" alt="Photo de <?php echo $agent['prenom'] . ' ' . $agent['nom']; ?>">
+    <p><a href="agent.php?id_agent=<?php echo $agent['identifiant_agent']; ?>">Voir les détails de l'agent</a></p>
 </div>
 </body>
 </html>
+
+<?php
+$conn->close();
+?>
