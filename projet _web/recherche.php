@@ -28,13 +28,37 @@ if ($conn->connect_error) {
         form {
             margin-bottom: 20px;
         }
-        label {
-            display: block;
-            margin-top: 10px;
+        .search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 24px;
+            padding: 5px 10px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
         }
-        input, select, button {
-            margin-top: 5px;
-            padding: 5px;
+        .search-bar input {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 24px;
+        }
+        .search-bar button {
+            background-color: #4285F4;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 24px;
+            margin-left: 10px;
+        }
+        .search-bar button:hover {
+            background-color: #357ae8;
         }
         .bien {
             border: 1px solid #ddd;
@@ -46,9 +70,10 @@ if ($conn->connect_error) {
 <body>
 <h1>Recherche de Biens Immobiliers</h1>
 <form method="GET" action="">
-    <label for="search">Rechercher :</label>
-    <input type="text" name="search" id="search" placeholder="Nom de l'agent, numéro de propriété, ville ou commune">
-    <button type="submit">Rechercher</button>
+    <div class="search-bar">
+        <input type="text" name="search" id="search" placeholder="Nom de l'agent, numéro de propriété, ville ou commune">
+        <button type="submit">Rechercher</button>
+    </div>
 </form>
 
 <div id="results">
