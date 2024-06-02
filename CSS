@@ -1,0 +1,170 @@
+.wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+header img {
+    position: absolute; /* Positionnement absolu pour un placement précis */
+    top: 30px; /* Définir le bord supérieur à 0 */
+    left: 50px; /* Définir le bord gauche à 0 */
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.welcome, .highlight, .carousel {
+    margin-bottom: 2em;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.carousel-button.prev {
+    left: 0;
+}
+
+.carousel-button.next {
+    right: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+}
+.container-recherche {
+    position: relative;
+    width: 300px;
+}
+
+#recherche {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#suggestions li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #f0f0f0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+.Moncompte {
+    display: flex;
+    text-align: left;
+
+}
+#connexion {
+    width: 300px;
+    margin-left: 300px;
+    padding: 20px;
+
+}
+#inscription {
+    width: 300px;
+    margin-left: 100px;
+    padding: 20px;
+
+}
+#password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#email2{
+    margin-bottom: 10px;
+}
