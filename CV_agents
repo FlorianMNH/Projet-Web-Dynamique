@@ -1,0 +1,254 @@
+<CVs>
+    <CV_Dupont>
+        <Nom>Jean Dupont</Nom>
+        <Contact>
+            <Adresse>10 Rue des Fleurs, 75000 Paris</Adresse>
+            <Telephone>+33 6 12 34 56 78</Telephone>
+            <Email>jean.dupont@example.com</Email>
+        </Contact>
+        <Profil>Agent immobilier passionné avec plus de 10 ans d'expérience dans la vente et la location de biens résidentiels et commerciaux. Compétences avérées en négociation et excellent sens du service client.</Profil>
+        <Experience>
+            <Poste>
+                <Titre>Agent Immobilier Sénior</Titre>
+                <Entreprise>Omnes Immobilier</Entreprise>
+                <Date>2015 - Présent</Date>
+                <Description>
+                    <Tache>Prospection de nouveaux clients et propriétés.</Tache>
+                    <Tache>Négociation des ventes et locations de biens immobiliers.</Tache>
+                    <Tache>Gestion des contrats et suivi administratif.</Tache>
+                </Description>
+            </Poste>
+            <Poste>
+                <Titre>Commercial Immobilier</Titre>
+                <Entreprise>Immobilier and Co.</Entreprise>
+                <Date>2010 - 2015</Date>
+                <Description>
+                    <Tache>Promotion et vente de programmes immobiliers neufs.</Tache>
+                    <Tache>Organisation de visites et salons immobiliers.</Tache>
+                </Description>
+            </Poste>
+        </Experience>
+        <Formation>
+            <Diplome>Licence en Immobilier</Diplome>
+            <Etablissement>Université de Paris</Etablissement>
+            <Date>2007 - 2010</Date>
+        </Formation>
+        <Competences>
+            <Competence>Négociation</Competence>
+            <Competence>Prospection</Competence>
+            <Competence>Relations client</Competence>
+            <Competence>Gestion administrative</Competence>
+        </Competences>
+        <Langues>
+            <Langue>Natif: Français</Langue>
+            <Langue>Courant: Anglais</Langue>
+        </Langues>
+        <Age>37 ans</Age>
+    </CV_Dupont>
+    <CV_Martin>
+        <Nom>Marie Martin</Nom>
+        <Contact>
+            <Adresse>20 Avenue des Champs, 69000 Lyon</Adresse>
+            <Telephone>+33 6 98 76 54 32</Telephone>
+            <Email>marie.martin@example.com</Email>
+        </Contact>
+        <Profil>Professionnelle de l'immobilier dynamique avec un parcours diversifié en marketing et gestion de projets, maintenant spécialisée dans la vente de biens de luxe.</Profil>
+        <Experience>
+            <Poste>
+                <Titre>Agent Immobilier de Luxe</Titre>
+                <Entreprise>Omnes Immobilier</Entreprise>
+                <Date>2018 - Présent</Date>
+                <Description>
+                    <Tache>Vente de propriétés haut de gamme.</Tache>
+                    <Tache>Conseils personnalisés pour des clients fortunés.</Tache>
+                </Description>
+            </Poste>
+            <Poste>
+                <Titre>Responsable Marketing Immobilier</Titre>
+                <Entreprise>Agence Grand Lyon</Entreprise>
+                <Date>2014 - 2018</Date>
+                <Description>
+                    <Tache>Développement de stratégies marketing pour la promotion de biens.</Tache>
+                    <Tache>Gestion de campagnes publicitaires.</Tache>
+                </Description>
+            </Poste>
+            <Poste>
+                <Titre>Chargée de Projet Immobilier</Titre>
+                <Entreprise>Habitat et Développement</Entreprise>
+                <Date>2010 - 2014</Date>
+                <Description>
+                    <Tache>Coordination de projets de rénovation urbaine.</Tache>
+                </Description>
+            </Poste>
+        </Experience>
+        <Formation>
+            <Diplome>Master en Management Immobilier</Diplome>
+            <Etablissement>EMLYON Business School</Etablissement>
+            <Date>2012 - 2014</Date>
+        </Formation>
+        <Formation>
+            <Diplome>Licence en Marketing</Diplome>
+            <Etablissement>Université de Lyon</Etablissement>
+            <Date>2007 - 2010</Date>
+        </Formation>
+        <Competences>
+            <Competence>Vente de biens de luxe</Competence>
+            <Competence>Marketing immobilier</Competence>
+            <Competence>Gestion de projets</Competence>
+            <Competence>Communication</Competence>
+        </Competences>
+        <Langues>
+            <Langue>Natif: Français</Langue>
+            <Langue>Courant: Anglais</Langue>
+            <Langue>Intermédiaire: Espagnol</Langue>
+        </Langues>
+        <Age>36 ans</Age>
+    </CV_Martin>
+    <CV_Leroy>
+        <Nom>Thomas Leroy</Nom>
+        <Contact>
+            <Adresse>15 Rue des Lilas, 33000 Bordeaux</Adresse>
+            <Telephone>+33 6 23 45 67 89</Telephone>
+            <Email>thomas.leroy@example.com</Email>
+        </Contact>
+        <Profil>Agent immobilier spécialisé en immobilier commercial avec une forte expérience en gestion de portefeuilles et en développement d'affaires.</Profil>
+        <Experience>
+            <Poste>
+                <Titre>Consultant Immobilier Commercial</Titre>
+                <Entreprise>Omnes Immobilier</Entreprise>
+                <Date>2017 - Présent</Date>
+                <Description>
+                    <Tache>Gestion et développement d'un portefeuille de clients commerciaux.</Tache>
+                    <Tache>Négociation de baux et de contrats de vente.</Tache>
+                </Description>
+            </Poste>
+            <Poste>
+                <Titre>Chargé de Développement Commercial</Titre>
+                <Entreprise>ImmoEntreprise</Entreprise>
+                <Date>2013 - 2017</Date>
+                <Description>
+                    <Tache>Prospection de nouvelles affaires et gestion des relations clients.</Tache>
+                    <Tache>Analyse de marché et évaluation de biens commerciaux.</Tache>
+                </Description>
+            </Poste>
+        </Experience>
+        <Formation>
+            <Diplome>Master en Gestion de Patrimoine Immobilier</Diplome>
+            <Etablissement>Université de Bordeaux</Etablissement>
+            <Date>2011 - 2013</Date>
+        </Formation>
+        <Formation>
+            <Diplome>Licence en Économie et Gestion</Diplome>
+            <Etablissement>Université de Bordeaux</Etablissement>
+            <Date>2008 - 2011</Date>
+        </Formation>
+        <Competences>
+            <Competence>Gestion de portefeuille</Competence>
+            <Competence>Négociation commerciale</Competence>
+            <Competence>Analyse de marché</Competence>
+            <Competence>Relations client</Competence>
+        </Competences>
+        <Langues>
+            <Langue>Natif: Français</Langue>
+            <Langue>Courant: Anglais</Langue>
+        </Langues>
+        <Age>35 ans</Age>
+    </CV_Leroy>
+    <CV_Dubois>
+        <Nom>Sophie Dubois</Nom>
+        <Contact>
+            <Adresse>5 Rue des Rosiers, 06000 Nice</Adresse>
+            <Telephone>+33 6 45 67 89 01</Telephone>
+            <Email>sophie.dubois@example.com</Email>
+        </Contact>
+        <Profil>Agent immobilier avec une solide expérience en gestion locative et en conseil en investissement immobilier. Passionnée par l'accompagnement des clients dans leurs projets immobiliers.</Profil>
+        <Experience>
+            <Poste>
+                <Titre>Gestionnaire Locatif</Titre>
+                <Entreprise>Omnes Immobilier</Entreprise>
+                <Date>2016 - Présent</Date>
+                <Description>
+                    <Tache>Gestion de biens locatifs pour le compte de propriétaires.</Tache>
+                    <Tache>Suivi des loyers et entretien des biens.</Tache>
+                </Description>
+            </Poste>
+            <Poste>
+                <Titre>Conseillère en Investissement Immobilier</Titre>
+                <Entreprise>ImmoConseil</Entreprise>
+                <Date>2012 - 2016</Date>
+                <Description>
+                    <Tache>Accompagnement des clients dans leurs projets d'investissement.</Tache>
+                    <Tache>Analyse de rentabilité et recommandations d'achat.</Tache>
+                </Description>
+            </Poste>
+        </Experience>
+        <Formation>
+            <Diplome>BTS Professions Immobilières</Diplome>
+            <Etablissement>Lycée Jean Moulin, Nice</Etablissement>
+            <Date>2010 - 2012</Date>
+        </Formation>
+        <Competences>
+            <Competence>Gestion locative</Competence>
+            <Competence>Conseil en investissement</Competence>
+            <Competence>Analyse de rentabilité</Competence>
+            <Competence>Suivi administratif</Competence>
+        </Competences>
+        <Langues>
+            <Langue>Natif: Français</Langue>
+            <Langue>Intermédiaire: Anglais</Langue>
+        </Langues>
+        <Age>33 ans</Age>
+    </CV_Dubois>
+    <CV_Moreau>
+        <Nom>Pierre Moreau</Nom>
+        <Contact>
+            <Adresse>25 Boulevard des Capucines, 44000 Nantes</Adresse>
+            <Telephone>+33 6 78 90 12 34</Telephone>
+            <Email>pierre.moreau@example.com</Email>
+        </Contact>
+        <Profil>Agent immobilier dynamique avec une forte expérience en vente de biens résidentiels et en gestion de projets de construction. Capable de fournir des solutions immobilières innovantes pour des clients diversifiés.</Profil>
+        <Experience>
+            <Poste>
+                <Titre>Agent Immobilier</Titre>
+                <Entreprise>Omnes Immobilier</Entreprise>
+                <Date>2020 - Présent</Date>
+                <Description>
+                    <Tache>Vente et location de biens résidentiels.</Tache>
+                    <Tache>Conseil aux clients sur les tendances du marché immobilier.</Tache>
+                    <Tache>Gestion des contrats de vente et de location.</Tache>
+                </Description>
+            </Poste>
+            <Poste>
+                <Titre>Chef de Projet Immobilier</Titre>
+                <Entreprise>Constructa</Entreprise>
+                <Date>2015 - 2020</Date>
+                <Description>
+                    <Tache>Coordination de projets de construction résidentielle.</Tache>
+                    <Tache>Supervision des équipes de construction et des sous-traitants.</Tache>
+                    <Tache>Gestion des budgets et des délais des projets.</Tache>
+                </Description>
+            </Poste>
+        </Experience>
+        <Formation>
+            <Diplome>Master en Gestion de Projet Immobilier</Diplome>
+            <Etablissement>Université de Nantes</Etablissement>
+            <Date>2013 - 2015</Date>
+        </Formation>
+        <Formation>
+            <Diplome>Licence en Immobilier</Diplome>
+            <Etablissement>Université de Rennes</Etablissement>
+            <Date>2010 - 2013</Date>
+        </Formation>
+        <Competences>
+            <Competence>Gestion de projet</Competence>
+            <Competence>Vente immobilière</Competence>
+            <Competence>Relations client</Competence>
+            <Competence>Supervision de chantier</Competence>
+        </Competences>
+        <Langues>
+            <Langue>Natif: Français</Langue>
+            <Langue>Courant: Anglais</Langue>
+        </Langues>
+        <Age>32 ans</Age>
+    </CV_Moreau>
+</CVs>
